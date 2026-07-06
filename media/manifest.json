@@ -1,0 +1,43 @@
+{
+  "round": 6,
+  "items": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AtdgO5l667fCTNS4yHBxn5uofF/hf_20260706_070032_02137f7e-260f-4a4f-af9e-e77a12e1f227.mp4",
+      "out": "video/hero.mp4",
+      "frames": {
+        "dir": "frames/hero",
+        "fps": 24,
+        "width": 1600,
+        "quality": 3
+      },
+      "stills": [
+        0.2,
+        2.0,
+        4.0,
+        6.0,
+        7.8
+      ]
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AtdgO5l667fCTNS4yHBxn5uofF/hf_20260706_063617_9d9976bd-7ace-4bd0-9722-7ac63d769915.mp4",
+      "out": "video/builder.mp4",
+      "webm": "video/builder.webm",
+      "stills": [
+        1.0,
+        4.0,
+        7.0
+      ]
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AtdgO5l667fCTNS4yHBxn5uofF/hf_20260706_063634_8ce97c21-3e3d-4763-b186-d726f602e5e3.mp4",
+      "out": "video/closer.mp4",
+      "webm": "video/closer.webm",
+      "stills": [
+        1.0,
+        4.0,
+        7.5
+      ]
+    }
+  ],
+  "nonce": 2
+}

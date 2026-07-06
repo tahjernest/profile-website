@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ebonee Crawford — AI Consultant</title>
+  <meta name="description" content="Ebonee Crawford. AI consultant. Strategy, custom agents and automation, team enablement." />
+  <meta property="og:title" content="Ebonee Crawford — AI Consultant" />
+  <meta property="og:description" content="Cinematic portfolio. AI strategy, custom agents, team enablement." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070708'/%3E%3Ctext x='32' y='44' font-family='Arial Black,sans-serif' font-size='30' font-weight='900' fill='%23ff2e8a' text-anchor='middle'%3EEC%3C/text%3E%3C/svg%3E" />
+  <link rel="preload" href="fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="fonts/SpaceGrotesk.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__name">EBONEE&nbsp;CRAWFORD</div>
+    <div class="loader__bar"><span id="loaderBar"></span></div>
+    <div class="loader__pct" id="loaderPct">0%</div>
+  </div>
+
+  <!-- Fixed chrome -->
+  <header class="chrome">
+    <a class="chrome__logo" href="#top">EC<span>&reg;</span></a>
+    <nav class="chrome__nav">
+      <a href="#pillars">What I Do</a>
+      <a href="#work">Work</a>
+      <a href="#contact" class="chrome__cta">Book a Consult</a>
+    </nav>
+  </header>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <main id="top">
+
+    <!-- ============ HERO : scroll-scrubbed 360 orbit ============ -->
+    <section class="hero" id="hero" data-scrub>
+      <div class="hero__sticky">
+        <canvas class="hero__canvas" id="heroCanvas" aria-label="Ebonee Crawford turning in a black studio with pink rim light"></canvas>
+        <div class="hero__vignette" aria-hidden="true"></div>
+
+        <div class="hero__type" aria-hidden="false">
+          <h1 class="hero__name">
+            <span class="hero__line" id="nameLine1" data-word="EBONEE"></span>
+            <span class="hero__line hero__line--accent" id="nameLine2" data-word="CRAWFORD"></span>
+          </h1>
+          <p class="hero__sub" id="heroSub"><span>AI</span><span>CONSULTANT</span></p>
+        </div>
+
+        <div class="hero__hint" id="heroHint">
+          <span class="hero__hint-dot"></span> SCROLL — THE ROOM MOVES WITH YOU
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats" id="stats">
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track" id="marqueeTrack">
+          <span>AI CONSULTANT&nbsp;&mdash;&nbsp;STRATEGIST&nbsp;&mdash;&nbsp;BUILDER&nbsp;&mdash;&nbsp;CLOSER&nbsp;&mdash;&nbsp;</span>
+          <span>AI CONSULTANT&nbsp;&mdash;&nbsp;STRATEGIST&nbsp;&mdash;&nbsp;BUILDER&nbsp;&mdash;&nbsp;CLOSER&nbsp;&mdash;&nbsp;</span>
+        </div>
+      </div>
+      <div class="stats__grid">
+        <!-- Edit data-value / data-prefix / data-suffix to your real numbers -->
+        <div class="stat"><div class="stat__num" data-value="120" data-suffix="+">0</div><div class="stat__label">Projects Shipped</div></div>
+        <div class="stat"><div class="stat__num" data-value="40" data-suffix="+">0</div><div class="stat__label">Clients Served</div></div>
+        <div class="stat"><div class="stat__num" data-value="8" data-suffix="">0</div><div class="stat__label">Years Deep</div></div>
+        <div class="stat"><div class="stat__num" data-value="2" data-prefix="$" data-suffix="M+">0</div><div class="stat__label">Client Revenue Unlocked</div></div>
+      </div>
+    </section>
+
+    <!-- ============ PILLARS : over clip 2 ============ -->
+    <section class="pillars" id="pillars" data-pillars>
+      <div class="pillars__sticky">
+        <video class="pillars__video" id="pillarsVideo" muted loop playsinline preload="metadata">
+          <source src="video/builder.mp4" type="video/mp4" />
+          <source src="video/builder.webm" type="video/webm" />
+        </video>
+        <div class="pillars__shade" aria-hidden="true"></div>
+        <div class="pillars__head"><span class="kicker">WHAT I DO</span></div>
+
+        <div class="pillar" data-pillar="0">
+          <div class="pillar__idx">01</div>
+          <h2 class="pillar__title">AI&nbsp;STRATEGY</h2>
+          <p class="pillar__copy">Roadmaps that pay for themselves. I audit your business, find the leverage, and hand you a plan your team can actually ship.</p>
+        </div>
+        <div class="pillar" data-pillar="1">
+          <div class="pillar__idx">02</div>
+          <h2 class="pillar__title">CUSTOM&nbsp;AGENTS</h2>
+          <p class="pillar__copy">Automation that works while you sleep. Custom AI agents and pipelines wired into the tools you already use.</p>
+        </div>
+        <div class="pillar" data-pillar="2">
+          <div class="pillar__idx">03</div>
+          <h2 class="pillar__title">TEAM&nbsp;ENABLEMENT</h2>
+          <p class="pillar__copy">Your people, upgraded. Hands-on training that turns AI-curious teams into AI-native operators.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK : over clip 3 ============ -->
+    <section class="work" id="work">
+      <video class="work__video" id="workVideo" muted loop playsinline preload="metadata">
+        <source src="video/closer.mp4" type="video/mp4" />
+        <source src="video/closer.webm" type="video/webm" />
+      </video>
+      <div class="work__shade" aria-hidden="true"></div>
+      <div class="work__inner">
+        <span class="kicker">SELECTED WORK</span>
+        <h2 class="work__title">RECEIPTS,<br/>NOT&nbsp;PROMISES.</h2>
+        <div class="cards">
+          <a class="card" href="#contact">
+            <span class="card__idx">01</span>
+            <h3 class="card__name">Commerce Autopilot</h3>
+            <p class="card__pitch">An AI product pipeline that runs a print-on-demand storefront hands-free — from design drop to listing.</p>
+            <span class="card__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="card" href="#contact">
+            <span class="card__idx">02</span>
+            <h3 class="card__name">Brand Content Engine</h3>
+            <p class="card__pitch">A generative studio that turns one idea into a month of on-brand content in an afternoon.</p>
+            <span class="card__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="card" href="#contact">
+            <span class="card__idx">03</span>
+            <h3 class="card__name">Community AI Hub</h3>
+            <p class="card__pitch">A custom assistant that onboards, answers, and serves a 10K-member community around the clock.</p>
+            <span class="card__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINALE ============ -->
+    <section class="finale" id="contact">
+      <h2 class="finale__title" id="finaleTitle">
+        <span class="finale__row">LET&rsquo;S BUILD</span>
+        <span class="finale__row finale__row--accent">YOUR UNFAIR</span>
+        <span class="finale__row">ADVANTAGE</span>
+      </h2>
+      <div class="finale__actions">
+        <a class="btn btn--solid" href="mailto:ebluvsrri@gmail.com?subject=Consult%20with%20Ebonee">Book a Consult</a>
+        <a class="btn btn--ghost" href="#work">See the Work</a>
+      </div>
+      <footer class="footer">
+        <div class="footer__socials">
+          <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://x.com/" target="_blank" rel="noopener">X</a>
+          <a href="https://tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+          <a href="mailto:ebluvsrri@gmail.com">Email</a>
+        </div>
+        <div class="footer__legal">&copy; 2026 Ebonee Crawford. Shot on a neural network.</div>
+      </footer>
+    </section>
+  </main>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script src="vendor/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
