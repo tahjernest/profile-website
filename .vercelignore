@@ -1,0 +1,14 @@
+# Files that live in the repo but should not ship to the CDN.
+
+# Media pipeline tooling (runs on GitHub Actions, not on Vercel)
+tools/
+.github/
+
+# QA stills and scratch media — not referenced by the site
+media/
+
+# Source clip for the hero orbit. The site plays the extracted frame
+# sequence in frames/hero/, so this 6.6 MB mp4 is never requested.
+video/hero.mp4
+
+node_modules/

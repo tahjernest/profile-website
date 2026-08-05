@@ -13,6 +13,18 @@ python3 -m http.server 4173
 # open http://localhost:4173
 ```
 
+## Deploy (Vercel)
+
+This is a plain static site — no build step, no dependencies to install. On
+Vercel, import the repo and accept every default (Framework Preset: **Other**,
+build command: **empty**, output directory: **empty**). It deploys from `main`.
+
+`vercel.json` sets cache headers on the media, and `.vercelignore` keeps the
+pipeline tooling and the unused hero source clip off the CDN. Media in
+`frames/` and `video/` is cached for 7 days with background revalidation, so
+if you regenerate a clip the change reaches visitors within a week rather than
+being pinned forever.
+
 ## Structure
 
 - `index.html` — single page: hero orbit → stats → pillars → work → finale
